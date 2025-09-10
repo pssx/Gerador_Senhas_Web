@@ -16,7 +16,3 @@ Uma ferramenta via web para criar senhas fortes com várias opções de personal
 2. Marque as opções adicionais desejadas.
 3. Clique em **Gerar Senha** para criar uma nova senha.
 4. Use o botão **Copiar Senha** para salvar a senha na área de transferência.
-
-## Aviso 
-- Senhas longas e complexas aumentam significativamente a segurança.  
-- Nunca compartilhe suas senhas em locais inseguros.
