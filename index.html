@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gerador de Senhas Seguras</h1>
+        <p>Uma ferramenta online para criar senhas robustas. <br> Este gerador de senhas permite a geração de uma senha
+            aleatória com várias opções de personalização.
+            Escolha as configurações desejadas, clique em 'Gerar Senha' e veja a senha gerada logo abaixo do botão."</p>
+
+
+        <div class="inputBox">
+            <!--<input type="text" class="password" id="inputBox" disabled /> -->
+
+            <textarea id="inputBox" cols="50" rows="5"></textarea>
+
+        </div>
+
+
+        <div class="additional">
+            <p><b>Tamanho da Senha</b></p>
+            <b><span id="sliderValue"></span></b>
+            <input type="range" min="10" max="200" value="8" id="inputSlider" />
+        </div>
+
+
+        <div class="additional">
+            <p><b>Opções adicionais</b></p>
+            <div class="options">
+                <div class="row">
+                    <label for="lowercase">Letras minúsculas (a-z)</label>
+                    <input type="checkbox" name="lowercase" id="lowercase" checked />
+                </div>
+
+                <div class="row">
+                    <label for="uppercase">Letras maiúsculas (A-Z)</label>
+                    <input type="checkbox" name="uppercase" id="uppercase" checked />
+                </div>
+
+                <div class="row">
+                    <label for="numbers">Números (0-9)</label>
+                    <input type="checkbox" name="numbers" id="numbers" checked />
+                </div>
+
+                <div class="row">
+                    <label for="symbols">Símbolos (!@#$%()&*)</label>
+                    <input type="checkbox" name="symbols" id="symbols" checked />
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <button type="button" id="copy">
+            <b>Copiar Senha</b>
+        </button>
+
+        <button type="button" class="genBtn" id="genBtn">
+            <b>Gerar Senha</b>
+        </button>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
